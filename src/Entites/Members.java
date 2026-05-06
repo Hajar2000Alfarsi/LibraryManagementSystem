@@ -1,6 +1,6 @@
 package Entites;
 
-public class Members {
+public class Members extends Information {
     private String phoneNumber;
     private String email;
 

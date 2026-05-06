@@ -1,6 +1,6 @@
 package Entites;
 
-public class Items {
+public class Items extends Information {
     private String author;
     private Boolean status;
 

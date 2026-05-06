@@ -3,6 +3,15 @@ package Entites;
 public class Library {
     private String libraryName;
     private String aboutLibrary;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getLibraryName() {
         return libraryName;
