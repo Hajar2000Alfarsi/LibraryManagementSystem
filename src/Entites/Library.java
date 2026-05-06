@@ -1,6 +1,8 @@
 package Entites;
 
-public class Library {
+import Behaviours.LibraryInterface;
+
+public class Library implements LibraryInterface {
     private String libraryName;
     private String aboutLibrary;
     private String address;
@@ -27,5 +29,11 @@ public class Library {
 
     public void setAboutLibrary(String aboutLibrary) {
         this.aboutLibrary = aboutLibrary;
+    }
+
+
+    @Override
+    public Library libraryInit() {
+        return null;
     }
 }
